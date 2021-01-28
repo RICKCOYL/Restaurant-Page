@@ -1,4 +1,4 @@
-export default  contact = () =>{
+export default function  contact() {
     const contactForm = document.createElement('section');
 
     contactForm.innerHTML = `
@@ -9,5 +9,5 @@ export default  contact = () =>{
         <input type="text" id="lname" name="lname">
   </form>
   `
-  return contactForm
+  return contactForm.outerHTML
 }

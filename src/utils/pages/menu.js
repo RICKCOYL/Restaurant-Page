@@ -1,4 +1,4 @@
-export default  menu = () =>{
+export default function  menu (){
     const menuList = document.createElement('section');
 
     menuList.innerHTML = `
@@ -75,5 +75,5 @@ export default  menu = () =>{
   </article>
   `
 
-  return menuList
+  return menuList.outerHTML
 }
