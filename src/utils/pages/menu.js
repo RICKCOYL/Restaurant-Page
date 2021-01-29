@@ -80,20 +80,15 @@ function  menu (){
   return menuList.outerHTML
 }
 
-
-let a;
-
 const hideMenu = () =>{
-   if (a === 1) {
-      document.querySelector('.menu-section').style.display = 'block';
- 
-      a = 0;
-      return a;
-    }
-  
-    const menuSec = document.querySelector('.menu-section')
-    menuSec.classList.remove('menu');
-    a = 1;
-    return a;
+   const x = document.getElementById("my-menu");
+   const menuText = document.getElementById("display-text")
+  if (x.textContent === Menu) {
+   menuText.appendChild(menu());
+  } else {
+   menuText.remove();
+  }
+
+//  return menuText
 }
-export{menu}
+export{menu, hideMenu}

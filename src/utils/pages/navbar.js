@@ -3,9 +3,9 @@ export default function  navbar (){
 
     navigation.innerHTML = `
         <ul class="nav-links">
-            <li class=""><a href="#" class="" >Home</a></li>
-            <li class=""><a href="#" class=""  onclick="menu()">Menu</a></li>
-            <li class=""><a href="#" class=""  onclick="contact()">Contact</a></li>
+            <li class=""><a href="#" class=""  >Home</a></li>
+            <li class=""><a href="#" id="my-menu"  onclick="hideMenu ">Menu</a></li>
+            <li class=""><a href="#" id="my-contact"  onclick="hideContact">Contact</a></li>
         </ul>
   `
   return navigation.outerHTML

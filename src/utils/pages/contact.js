@@ -2,6 +2,7 @@ function  contact() {
     const contactForm = document.createElement('section');
     contactForm.className = 'contact-section'
     contactForm.innerHTML = `
+    <h1 class='text-center'>Contact us</h1>
     <form class="form shadow">
   
     <div class="form-floating mt-3 pt-2">
@@ -21,20 +22,16 @@ function  contact() {
   return contactForm.outerHTML
 }
 
-let a;
-
 const hideContact = (id) =>{
-  if (a === 1) {
-     document.querySelector('.contact-section').style.display = 'block';
+  const x = document.getElementById("my-contact");
+  const contactText = document.getElementById('display-text')
+  if (x.textContent === Contact) {
+    contactText.appendChild(contact());
+  } else {
+    contactText.remove();
+  }
 
-     a = 0;
-     return a;
-   }
- 
-   const contForm = document.querySelector('.contact-section')
-  contForm.classList.remove('form');
-   a = 1;
-   return a;
+  //return contactText
 }
 
-export{contact}
+export{contact,hideContact}

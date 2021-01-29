@@ -1,6 +1,7 @@
-import {menu}from "./utils/pages/menu";
+import {menu, hideMenu}from "./utils/pages/menu";
 import navbar from "./utils/pages/navbar.js";
-import {contact} from "./utils/pages/contact";
+import {contact,hideContact} from "./utils/pages/contact";
+import {home} from "./utils/pages/home"
 
 import  "./utils/css/style.css";
 import 'bootstrap';
@@ -14,7 +15,8 @@ content.innerHTML = `
 <div>
 ${navbar()}
 </div>
-<div>
+<div id="display-text">
+${home()}
 ${ menu()}
 
 ${contact()}
@@ -25,16 +27,13 @@ ${contact()}
 }
 
 const loadEventListners = () =>{
-    const homebtn = document.querySelector('#home');
-    const menubtn = document.querySelector('.menu-section');
-    const contactbtn = document.querySelector('.contact-section');
-
+  hideContact()
+  hideMenu()
     //homebtn.addEventListener('click',loadHome);
     menubtn.addEventListener('click',hideMenu);
     contactbtn.addEventListener('click',hideContact);
 }
 
-//hideContact()
-//hideMenu()
+
 display()
 //loadEventListners()
