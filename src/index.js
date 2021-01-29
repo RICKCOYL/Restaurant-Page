@@ -1,6 +1,6 @@
-import {menu,hideMenu}from "./utils/pages/menu";
+import {menu}from "./utils/pages/menu";
 import navbar from "./utils/pages/navbar.js";
-import {contact, hideContact} from "./utils/pages/contact";
+import {contact} from "./utils/pages/contact";
 
 import  "./utils/css/style.css";
 import 'bootstrap';
@@ -16,8 +16,7 @@ ${navbar()}
 </div>
 <div>
 ${ menu()}
-</div>
-<div>
+
 ${contact()}
 </div>
 
