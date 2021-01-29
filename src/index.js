@@ -1,6 +1,6 @@
-import menu from "./utils/pages/menu";
+import {menu,hideMenu}from "./utils/pages/menu";
 import navbar from "./utils/pages/navbar.js";
-import contact from "./utils/pages/contact";
+import {contact, hideContact} from "./utils/pages/contact";
 
 import  "./utils/css/style.css";
 import 'bootstrap';
@@ -27,29 +27,15 @@ ${contact()}
 
 const loadEventListners = () =>{
     const homebtn = document.querySelector('#home');
-    const menubtn = document.querySelector('#menu');
-    const contactbtn = document.querySelector('#contact');
+    const menubtn = document.querySelector('.menu-section');
+    const contactbtn = document.querySelector('.contact-section');
 
-    homebtn.addEventListener('click',loadHome);
-    menubtn.addEventListener('click',loadMenu);
-    contactbtn.addEventListener('click',loadMenu);
+    //homebtn.addEventListener('click',loadHome);
+    menubtn.addEventListener('click',hideMenu);
+    contactbtn.addEventListener('click',hideContact);
 }
 
-function hideShow() {
-    if (a === 1) {
-      document.getElementById('author').style.display = 'block';
-      document.getElementById('title').style.display = 'block';
-      document.getElementById('pages').style.display = 'block';
-      a = 0;
-      return a;
-    }
-  
-    document.getElementById('author').style.display = 'none';
-    document.getElementById('title').style.display = 'none';
-    document.getElementById('pages').style.display = 'none';
-    a = 1;
-    return a;
-  }
-
+//hideContact()
+//hideMenu()
 display()
 //loadEventListners()
