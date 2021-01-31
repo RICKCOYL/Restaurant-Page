@@ -31,7 +31,7 @@ To get this project up and running locally, you must clone this repository or do
 
 - Github: [https://github.com/RICKCOYL](https://github.com/RICKCOYL)
 - Twitter: [https://twitter.com/rickcoyl](https://twitter.com/rickcoyl)
-- Linkedin: [https://www.linkedin.com/in/ceamatu-cristian/](https://www.linkedin.com/in/ceamatu-cristian/)
+- Linkedin: [https://www.linkedin.com/in/rick-oburu/](https://www.linkedin.com/in/rick-oburu/)
 
 ## 🤝 Contributing
 
