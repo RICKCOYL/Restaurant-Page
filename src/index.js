@@ -15,7 +15,7 @@ const display = () => {
 ${navbar()}
 </div>
 <div id="display-text">
-${home()}
+  ${home()}
 </div>
 
 

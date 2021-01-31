@@ -5,11 +5,14 @@
 }
 
 #content {
-  background: url("../images/dining.jpg");
   width: auto;
   height: 100vh;
   display: grid;
   grid-template-columns: 20% 80%;
+}
+
+#display-text {
+  background: url("../images/dining.jpg");
 }
 
 .nav-links {
