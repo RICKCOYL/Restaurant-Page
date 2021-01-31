@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  width: auto;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.nav-links {
+  list-style: none;
+  position: relative;
+  top: 8px;
+}
+
+.nav-links a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav {
+  background-color: #000;
+  padding: 5px 0;
+  height: 100vh;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-floating {
+  width: 70%;
+  margin: 0 auto;
+}

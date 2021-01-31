@@ -1,0 +1,45 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack --watch --mode=development",
+    "fix": "stylelint --fix \"**/*.css\" && eslint . --fix",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RICKCOYL/Restaurant-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RICKCOYL/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/RICKCOYL/Restaurant-Page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "npm-install-webpack-plugin": "^4.0.5",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.0.0-beta1",
+    "style-loader": "^2.0.0"
+  }
+}
