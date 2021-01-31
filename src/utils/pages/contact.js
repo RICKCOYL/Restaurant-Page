@@ -1,4 +1,4 @@
-function contact() {
+export default function contact() {
   const contactForm = document.createElement('section');
   contactForm.className = 'contact-section';
   contactForm.innerHTML = `
@@ -21,5 +21,3 @@ function contact() {
 
   return contactForm.outerHTML;
 }
-
-export { contact };
