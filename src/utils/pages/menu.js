@@ -1,6 +1,6 @@
-function menu () {
+function menu() {
   const menuList = document.createElement('section');
-  menuList.className = 'menu-section'
+  menuList.className = 'menu-section';
   menuList.innerHTML = `
     <h2 class='text-center mb-5'>Overrated Menu</h2>
     <article class="menu">
@@ -36,20 +36,20 @@ function menu () {
     </div>
        
     </article>
-  `
+  `;
 
   return menuList.outerHTML;
 }
 
 const hideMenu = () => {
   const x = document.getElementById('my-menu');
-  const menuText = document.getElementById('display-text')
+  const menuText = document.getElementById('display-text');
   if (x.textContent === Menu) {
-    menuText.appendChild(menu())
+    menuText.appendChild(menu());
   } else {
-    menuText.remove()
-  };
+    menuText.remove();
+  }
 
   //  return menuText
-}
+};
 export { menu, hideMenu };

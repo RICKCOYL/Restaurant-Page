@@ -1,7 +1,7 @@
-function  contact() {
-    const contactForm = document.createElement('section');
-    contactForm.className = 'contact-section'
-    contactForm.innerHTML = `
+function contact() {
+  const contactForm = document.createElement('section');
+  contactForm.className = 'contact-section';
+  contactForm.innerHTML = `
     <h1 class='text-center'>Contact us</h1>
     <form class="form shadow">
   
@@ -16,10 +16,10 @@ function  contact() {
     </div>
     </div>   
   </form>
-  `
+  `;
 
- 
-  return contactForm.outerHTML
-};
 
-export{contact};
+  return contactForm.outerHTML;
+}
+
+export { contact };
