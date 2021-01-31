@@ -40,5 +40,3 @@ export default function menu() {
 
   return menuList.outerHTML;
 }
-
-
