@@ -1,4 +1,4 @@
-export default function home() {
+const home = () =>{
   const homePage = document.createElement('section');
   homePage.className = 'contact-section';
   homePage.innerHTML = `
@@ -10,3 +10,5 @@ export default function home() {
 
   return homePage.outerHTML;
 }
+
+export{home}

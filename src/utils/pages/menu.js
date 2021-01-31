@@ -1,4 +1,4 @@
-export default function menu() {
+const menu = () => {
   const menuList = document.createElement('section');
   menuList.className = 'menu-section';
   menuList.innerHTML = `
@@ -40,3 +40,5 @@ export default function menu() {
 
   return menuList.outerHTML;
 }
+
+export{menu}

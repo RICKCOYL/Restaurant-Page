@@ -1,4 +1,4 @@
-export default function navbar() {
+const navbar = () => {
   const navigation = document.createElement('nav');
 
   navigation.innerHTML = `
@@ -10,3 +10,5 @@ export default function navbar() {
   `;
   return navigation.outerHTML;
 }
+
+export{navbar}
