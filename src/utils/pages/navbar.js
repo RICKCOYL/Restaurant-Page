@@ -8,5 +8,5 @@ export default function  navbar (){
             <li class=""><a href="#">Contact</a></li>
         </ul>
   `
-  return navigation.outerHTML
-}
+  return navigation.outerHTML;
+};

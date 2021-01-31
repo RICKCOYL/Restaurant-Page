@@ -20,18 +20,6 @@ function  contact() {
 
  
   return contactForm.outerHTML
-}
+};
 
-const hideContact = (id) =>{
-  const x = document.getElementById("my-contact");
-  const contactText = document.getElementById('display-text')
-  if (x.textContent === Contact) {
-    contactText.appendChild(contact());
-  } else {
-    contactText.remove();
-  }
-
-  //return contactText
-}
-
-export{contact,hideContact}
+export{contact};

@@ -1,5 +1,5 @@
 function menu () {
-  const menuList = document.createElement('section')
+  const menuList = document.createElement('section');
   menuList.className = 'menu-section'
   menuList.innerHTML = `
     <h2 class='text-center mb-5'>Overrated Menu</h2>
@@ -38,18 +38,18 @@ function menu () {
     </article>
   `
 
-  return menuList.outerHTML
+  return menuList.outerHTML;
 }
 
 const hideMenu = () => {
-  const x = document.getElementById('my-menu')
+  const x = document.getElementById('my-menu');
   const menuText = document.getElementById('display-text')
   if (x.textContent === Menu) {
     menuText.appendChild(menu())
   } else {
     menuText.remove()
-  }
+  };
 
   //  return menuText
 }
-export { menu, hideMenu }
+export { menu, hideMenu };

@@ -8,7 +8,7 @@ function  home() {
   `
 
  
-  return homePage.outerHTML
+  return homePage.outerHTML;
 }
 
-export{home}
+export{home};
