@@ -1,7 +1,7 @@
-import{ menu} from './utils/pages/menu';
-import {navbar} from './utils/pages/navbar';
-import {contact} from './utils/pages/contact';
-import{ home} from './utils/pages/home';
+import menu from './utils/pages/menu';
+import navbar from './utils/pages/navbar';
+import contact from './utils/pages/contact';
+import home from './utils/pages/home';
 import './utils/css/style.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

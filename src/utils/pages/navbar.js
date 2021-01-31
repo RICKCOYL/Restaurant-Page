@@ -9,6 +9,6 @@ const navbar = () => {
         </ul>
   `;
   return navigation.outerHTML;
-}
+};
 
-export{navbar}
+export default navbar;

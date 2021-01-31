@@ -39,6 +39,6 @@ const menu = () => {
   `;
 
   return menuList.outerHTML;
-}
+};
 
-export{menu}
+export default menu;

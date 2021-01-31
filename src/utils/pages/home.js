@@ -1,4 +1,4 @@
-const home = () =>{
+const home = () => {
   const homePage = document.createElement('section');
   homePage.className = 'contact-section';
   homePage.innerHTML = `
@@ -9,6 +9,6 @@ const home = () =>{
 
 
   return homePage.outerHTML;
-}
+};
 
-export{home}
+export default home;

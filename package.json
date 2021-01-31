@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open",
     "fix": "stylelint --fix \"**/*.css\" && eslint . --fix",
-    "lint": "eslint --fix --ext .js,.css ."
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/RICKCOYL/Restaurant-Page#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "css-loader": "^5.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^7.0.1",
     "npm-install-webpack-plugin": "^4.0.5",
