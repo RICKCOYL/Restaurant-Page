@@ -8,7 +8,7 @@
 
 - Users can visit the home, menu and contact pages
 
-## This web app is live, you can check it here: [Live demo]()
+## This web app is live, you can check it here: [Live demo](https://rickcoyl.github.io/Restaurant-Page/dist/index.html)
 
 ## Screenshots of the app.
 
