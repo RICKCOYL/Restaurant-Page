@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack serve --mode development --open",
     "fix": "stylelint --fix \"**/*.css\" && eslint . --fix",
     "lint": "eslint --fix --ext .js,.jsx ."
   },
@@ -32,8 +32,9 @@
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1",
     "url-loader": "^4.1.1",
-    "webpack": "2.2.0-rc.3",
-    "webpack-dev-server": "2.1.0-beta.0"
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.6.0",
