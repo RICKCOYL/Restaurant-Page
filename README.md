@@ -21,7 +21,7 @@
 - Webpack
 - Bootstrap
 
-## Prerequisities
+## Prerequisities.
 
 To get this project up and running locally, you must clone this repository or download the files and double click on `index.html` found in the `dist` folder.
 
